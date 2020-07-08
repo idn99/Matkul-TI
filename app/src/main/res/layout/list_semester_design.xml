@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tv_semester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/semester_bg"
+        android:text="SEMESTER 1"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:padding="10dp"/>
+
+</LinearLayout>

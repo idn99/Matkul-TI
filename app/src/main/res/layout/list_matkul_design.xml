@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layout_matkul"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/semester_bg"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/tv_matkul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logika Informatika"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_sks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SKS"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

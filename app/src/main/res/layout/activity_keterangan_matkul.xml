@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.KeteranganMatkulActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:layout_marginTop="60dp">
+        <TextView
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Keterangan"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_ket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="keterangan matkul"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/semester_bg"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_margin="20dp">
+        <TextView
+            android:id="@+id/tv_ket_matkul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matkul"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/tv_ket_sks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sks"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+    </LinearLayout>
+
+</RelativeLayout>
